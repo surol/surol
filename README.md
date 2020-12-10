@@ -127,7 +127,7 @@ messageEmitter.send({ name: 'Tester', email: 'tester@example.com' }, 'Too late',
 
 - [context-values] - IoC context values provider
 - [input-aspects] - Framework-agnostic library controlling various aspects of user input, such as form validation
-- [log-z] - Logging library forbrowser and or Node.js
+- [log-z] - Logging library for browsers and Node.js
 - [optionz] - Advanced command line options parser
 - [push-iterator] - Push iteration protocol. A faster, two-way compatible, alernative to [JavaScript iteration protocol]
 - [rollup-plugin-flat-dts] - `.d.ts` files flattener and Rollup plugin
