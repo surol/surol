@@ -123,7 +123,7 @@ messageEmitter.send({ name: 'Tester', email: 'tester@example.com' }, 'Too late',
 [fun-events]: https://github.com/proc7ts/fun-events
 
 
-#### Other Libraries An Tools
+#### Other Tools And Libraries
 
 - [context-values] - IoC context values provider
 - [input-aspects] - Framework-agnostic library controlling various aspects of user input, such as form validation
