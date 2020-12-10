@@ -84,9 +84,9 @@ Handle events in reactive style. Think RxJS specialized on events rather general
 
 ```typescript
 import { nextArgs, nextSkip } from '@proc7ts/call-thru';
-import type { EventEmitter, OnEvent } from '@proc7ts/fun-events';
+import { EventEmitter, OnEvent } from '@proc7ts/fun-events';
 import { thruOn } from '@proc7ts/fun-events/call-thru';
-import type { Supply } from '@proc7ts/primitives';
+import { Supply } from '@proc7ts/primitives';
 
 // API supports arbitrary event receiver signatures
 // An event is its receiver parameters
