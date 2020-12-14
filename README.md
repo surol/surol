@@ -83,9 +83,7 @@ See [RealWorld application] implemented with [Wesib].
 Handle events in reactive style. Think RxJS specialized on events rather generalized for data streams processing.
 
 ```typescript
-import { nextArgs, nextSkip } from '@proc7ts/call-thru';
-import { EventEmitter, OnEvent } from '@proc7ts/fun-events';
-import { thruOn } from '@proc7ts/fun-events/call-thru';
+import { EventEmitter, OnEvent, translateOn } from '@proc7ts/fun-events';
 import { Supply } from '@proc7ts/primitives';
 
 // API supports arbitrary event receiver signatures
@@ -96,10 +94,9 @@ function printMessage(sender: string, message: string): void {
 
 const messageEmitter = new EventEmitter<[user: { name: string, email: string }, message: string, urgent?: boolean]>();
 const onUrgentMessage: OnEvent<[string, string]> = messageEmitter.on.do(
-  thruOn(
-    ({ name, email }, message, urgent = false) => urgent
-      ? nextArgs(`${name} <${email}>`, message)
-      : nextSkip() // Filter out non-urgent messages
+  translateOn(
+    // Translate urgent messages only
+    (send, { name, email }, message, urgent = false) => urgent && send(`${name} <${email}>`, message),
   ),
 );
 
