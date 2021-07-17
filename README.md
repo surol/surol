@@ -1,4 +1,4 @@
-![surol's GitHub stats](https://github-readme-stats.vercel.app/api?username=surol&theme=gotham&show_icons=true)
+![surol's GitHub stats](https://github-readme-stats.vercel.app/api?username=surol&theme=gotham&hide=stars&show_icons=true)
 
 
 ### Take a look at my projects
