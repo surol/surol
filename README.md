@@ -1,3 +1,11 @@
+<a href="https://github/com/surol">
+  <img align="top" src="https://github-readme-stats.vercel.app/api?username=surol&theme=gotham&show_icons=true"/>
+</a>
+<a href="https://github/com/surol">
+  <img align="top" src="https://github-readme-stats.vercel.app/api/top-langs/?username=surol&theme=gotham"/>
+</a>
+
+
 ### Take a look at my projects
 
 #### [Hatsy]
