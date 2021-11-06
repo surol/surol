@@ -87,10 +87,10 @@ Handle events in reactive style. Think RxJS specialized on events rather general
 
 ```typescript
 import { EventEmitter, OnEvent, translateOn } from '@proc7ts/fun-events';
-import { Supply } from '@proc7ts/primitives';
+import { Supply } from '@proc7ts/supply';
 
 // API supports arbitrary event receiver signatures
-// An event is its receiver parameters
+// An event is its receiver's parameters
 function printMessage(sender: string, message: string): void { 
   console.info(`Message from ${sender}: ${message}`);
 }
