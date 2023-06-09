@@ -1,5 +1,5 @@
-![surol's GitHub stats](https://github-readme-stats.vercel.app/api?username=surol&theme=gotham&hide=stars&show_icons=true)
-
+![surol's GitHub stats](https://github-readme-stats.vercel.app/api?username=surol&theme=gotham&hide=stars&show_icons=true)  
+[![wakatime](https://wakatime.com/badge/user/832d1c88-6d6e-427f-a870-5f8f5dbd2350.svg)](https://wakatime.com/@832d1c88-6d6e-427f-a870-5f8f5dbd2350)
 
 ### Take a look at my projects
 
